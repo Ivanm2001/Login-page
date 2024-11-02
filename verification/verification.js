@@ -46,7 +46,7 @@ async function login(req, res, db) {
     res.cookie("jwt", token, cookieOption);
     return res
       .status(200)
-      .send({ status: "ok", message: "Usuario loggeado", redirect: "/main" });
+      .send({ status: "ok", message: "User logged", redirect: "/main" });
   } catch (error) {
     return res.status(500).send({
       status: "Error",
@@ -123,7 +123,7 @@ async function register(req, res, db) {
   }
 
   return res.status(201).send({
-    status: "Succesful",
+    status: "Succesfull",
     message: `the email ${email} was added.`,
     redirect: "/",
   });
