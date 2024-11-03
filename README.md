@@ -38,7 +38,8 @@ Este proyecto contiene una pagina de login que te permite registrarte, iniciar s
    
   
 ## Uso
-  - Una vez instalado docker desktop, ejecutar "docker-compose up" en el directorio del programa". Esto se encargara de descargar las dependencias de Node necesarias y de configurar la base de datos.
+  - Una vez instalado docker desktop, abrirlo.
+  - Luego de abrir docker desktop, ejecutar "docker-compose up" en el directorio del programa. Esto se encargara de    descargar las dependencias de Node necesarias y de configurar la base de datos.
   - Luego de ejecutar este comando, podemos acceder a la pagina entrado a http://localhost:3000/
   - Cuando terminemos de usar esta aplicacion, podemos cerrarla presionando Ctrl + C en la terminal y luego ejecutando "docker-compose down"
 
