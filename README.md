@@ -18,7 +18,7 @@ Este proyecto contiene una página de login que te permite registrarte, iniciar 
 
 ## Instalación
 1. Clona el repositorio:
-    - `git clone https://github.com/Ivanm2001/Login-page.git`
+    - `git clone https://github.com/Ivanm2001/full_stack_test_exercise.git`
      
 2. Navega al directorio del proyecto:
    - `cd nombre-del-repositorio`
